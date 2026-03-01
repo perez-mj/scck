@@ -1,0 +1,36 @@
+:root {
+  /* Red Ribbon Brand Colors */
+  --primary-red: #E31837;
+  --primary-red-dark: #B1122B;
+  --secondary-cream: #FFF5E6;
+  --accent-gold: #FFD700;
+  --text-dark: #333333;
+  --text-light: #666666;
+  --white: #FFFFFF;
+  --gray-bg: #F8F9FA;
+  
+  /* Typography */
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+  
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 8px rgba(0,0,0,0.15);
+  --shadow-lg: 0 8px 16px rgba(0,0,0,0.2);
+  
+  /* Transitions */
+  --transition-fast: 0.3s ease;
+  --transition-normal: 0.5s ease;
+}
