@@ -1,3 +1,4 @@
+/* src/styles/variables.css */
 :root {
   /* Red Ribbon Brand Colors */
   --primary-red: #E31837;
@@ -33,4 +34,21 @@
   /* Transitions */
   --transition-fast: 0.3s ease;
   --transition-normal: 0.5s ease;
+}
+
+/* Vuetify Theme Overrides */
+.v-theme--light {
+  --v-primary-base: var(--primary-red) !important;
+  --v-secondary-base: var(--secondary-cream) !important;
+  --v-accent-base: var(--accent-gold) !important;
+}
+
+.v-btn--variant-flat {
+  background-color: var(--primary-red) !important;
+  color: var(--white) !important;
+}
+
+.v-btn--variant-outlined {
+  border-color: var(--primary-red) !important;
+  color: var(--primary-red) !important;
 }

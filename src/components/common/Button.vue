@@ -1,3 +1,4 @@
+<!-- src/components/common/Button.vue -->
 <template>
   <button 
     :class="['btn', `btn-${variant}`, `btn-${size}`]"
